@@ -1,0 +1,50 @@
+package com.class18;
+
+public class Hello {
+	
+	void sayHello(String name){ // METHOD WITH PARAMETERS
+		
+		System.out.println("Hello "+name);		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		Hello obj=new Hello();
+		obj.sayHello("Asel");
+		obj.sayHello("Waqas");
+		obj.sayHello("Diego");
+		obj.sayHelloDifferentLanguage("USA");
+		obj.sayHelloDifferentLanguage("Paraguay");
+		obj.sayHelloDifferentLanguage("Mexico");
+		
+	}
+	/* Create a method that will say hello in different language based
+	 * on the value that will be passed when user calls a method
+	 */
+	
+	void sayHelloDifferentLanguage(String country) {
+			
+		switch (country) {
+		case "USA":
+			System.out.println("Hello");
+			break;
+		case "Russia":
+			System.out.println("Privet");
+			break;
+		case "Paraguay":
+			System.out.println("Hola");
+			break;
+		case "Albania":
+			System.out.println("Pershendetje");
+			break;
+			default:
+				System.out.println("I do not know how to say hello in your language");
+		}
+		
+		
+	}
+	
+	
+}
+

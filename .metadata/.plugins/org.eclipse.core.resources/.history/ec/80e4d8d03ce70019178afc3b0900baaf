@@ -1,0 +1,86 @@
+package com.RandomNotes;
+
+public class LogiOp2 {
+	
+	public static void main(String[] args) {
+		
+		/*--Logical Operator Types
+		 * Or Operator ||
+		 * and Operator &&
+		 * not Operator !
+		 * Exclusive Operator ^
+		 * 
+		 * --> These operators are also known as the BOOLEAN OPERATORS
+		 */
+		
+		// Example 1 of NOT operator-->   !
+		System.out.println("   ! Operator (NOT)   ");
+		boolean human=true;
+		
+		if(!human) { // NOT operator will print "I am not human" because it is NOT true (human=true)
+			System.out.println("I am a human");
+		}else {
+			System.out.println("I am not a human");
+		}
+		// Example 2 of NOT operator-->   !
+		boolean boy=false;
+		if(!boy) { // NOT operator will print "I am a boy" because it is NOT false (boy=false)
+			System.out.println("I am a boy");
+		}else {
+			System.out.println("I am not a boy");
+		}
+//		
+//	
+//		
+		
+		// if true && true = true
+		// if true && false = false
+		// Both conditions have to be correct
+		
+		// Example 1 of AND operator-->  &&
+		System.out.println("   && Operator (and)   ");
+		int andNumber=6;
+		
+		if((andNumber % 2 == 0) && (andNumber % 3 == 0)) { // Both conditions are true, prints: line 41
+			System.out.println(andNumber + " is divisible by both 2 and 3");
+		}else {
+			System.out.println(andNumber + " is not divisible by both 2 and 3");
+		}
+		// Example 2 of AND operator-->  &&
+		int andNumber2=13;
+		
+		if((andNumber2 % 2 == 0) && (andNumber2 % 3 == 0)) { // Both conditions are NOT true, prints: line 52
+			System.out.println(andNumber2 + " is divisible by both 2 and 3");
+		}else {
+			System.out.println(andNumber2 + " is not divisible by both 2 and 3");
+		}
+//		
+//		
+//
+		
+		// OR Operator
+		// true || true = true -----> If both conditions are true, I will print true
+		// true || false = true -----> If either OR condition is true, I will print true 
+		// false || false = false -----> If both conditions are false, I will print false
+		
+		// Example 1 of OR operator-->  ||
+		System.out.println("   || Operator (OR)   ");
+		int orNumber2=13;
+		
+		if((orNumber2 % 2 == 0) || (orNumber2 % 3 == 0)) { // Both conditions are NOT true, prints: line 52
+			System.out.println(orNumber2 + " is completely divisible by both 2 and 3");
+		}else {
+			System.out.println(orNumber2 + " is not completely divisible by both 2 and 3");
+		}
+		// Example 2 of OR operator-->  ||
+		int orNumber=8;
+		
+		if((orNumber % 2 == 0) || (orNumber % 3 == 0)) { // Both conditions are NOT true, prints: line 52
+			System.out.println(orNumber + " is completely divisible by both 2 and 3");
+		}else {
+			System.out.println(orNumber + " is not completely divisible by both 2 and 3");
+		}
+		
+	}
+
+}

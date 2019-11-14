@@ -1,0 +1,36 @@
+package com.review7;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		// 1. change class mathOprtations from void to int, double, string etc
+		// 2. in class Application create a variable to return a result
+		
+		mathOperations mathOps = new mathOperations(); // create the object of the class
+		
+		mathOps.add(3, 10, 9); // print add method with the variables of your choice
+		System.out.println();
+		
+		
+		
+		mathOps.subtract(100, 10); // print subtract method with the variables of your choice
+		System.out.println();
+		
+		
+		
+		mathOps.muliply(5.5, 10.0);
+		System.out.println();
+		
+		
+		
+		mathOps.divide(9.3, 0);
+		
+		
+		
+	int casting = mathOps.multiply2(3.1, 2.2);
+	System.out.println(casting);
+
+	}
+
+}

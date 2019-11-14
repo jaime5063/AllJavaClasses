@@ -1,0 +1,22 @@
+package com.class15;
+
+import java.util.Scanner;
+
+public class StringManipulationTask {
+
+	public static void main(String[] args) {
+
+		//lets ask used to enter browser
+
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Please enter browser name");
+		String browser=scan.nextLine();
+		
+		
+		
+		
+		
+		
+	}
+
+}

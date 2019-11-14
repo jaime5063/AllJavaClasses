@@ -1,0 +1,16 @@
+package com.class15;
+
+public class Replace {
+
+	public static void main(String[] args) {
+
+		// Replace
+		String str="Java classes at Syntax are awesome";
+		String aw=str.replace("awesome", "Great");
+		System.out.println(aw);
+		
+		
+
+	}
+
+}

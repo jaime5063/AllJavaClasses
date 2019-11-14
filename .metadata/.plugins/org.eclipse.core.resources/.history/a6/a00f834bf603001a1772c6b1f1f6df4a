@@ -1,0 +1,20 @@
+package com.class17;
+
+public class ObjectsOfKidsClass {
+
+	public static void main(String[] args) {
+		
+	Kids kid=new Kids();
+		kid.name="Noah";
+		kid.age="8";
+		kid.sport="Basketball";
+		kid.gender="Boy";
+		kid.weight=50;
+			kid.play();
+			kid.playingBasketball();
+			kid.school();
+		
+		
+	}
+
+}

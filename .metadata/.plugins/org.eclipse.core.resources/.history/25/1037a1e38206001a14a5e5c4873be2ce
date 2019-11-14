@@ -1,0 +1,17 @@
+package com.review7;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		mathOperations mathOps = new mathOperations(); // create the object of the class
+		
+		mathOps.add(3, 10, 9); // print add method with the variables of your choice
+		
+		mathOps.subtract(100, 10); // print subtract method with the variables of your choice
+		
+		mathOps.muliply(5, 5);
+
+	}
+
+}

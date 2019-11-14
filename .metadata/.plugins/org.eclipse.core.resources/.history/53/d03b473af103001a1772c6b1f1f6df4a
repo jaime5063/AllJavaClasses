@@ -1,0 +1,23 @@
+package com.class17;
+
+public class ObjectsOfDogs {
+
+	public static void main(String[] args) {
+		
+		Dogs dog=new Dogs();
+		
+		dog.breed="Husky";
+		dog.name="Max";
+		dog.color="White";
+		dog.age=2;
+		dog.weight=110;
+		
+		dog.running();
+		dog.age();
+		dog.breed();
+		dog.color();
+		dog.weight();
+
+	}
+
+}

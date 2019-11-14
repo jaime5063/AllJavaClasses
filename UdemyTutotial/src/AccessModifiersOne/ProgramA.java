@@ -1,0 +1,20 @@
+package AccessModifiersOne;
+
+public class ProgramA {
+	
+	public static void main(String[] args) {
+		
+		ClassTemplate newObj = new ClassTemplate();
+		
+	// newObj. 	---> Will allow you to choose:  day, week or month (From the ClassTemplate)
+		// will not allow you to choose:  year (from the ClassTemplate, because it is private)
+		
+		System.out.println(newObj.printWeek());
+		// allows you access:
+		// day, week, month and year
+			// why?
+			// because - printWeek (method) - is set a public
+				
+	}
+
+}

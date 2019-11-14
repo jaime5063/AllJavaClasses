@@ -1,0 +1,25 @@
+package com.class17;
+
+public class ObjectsOfMyCats {
+
+	public static void main(String[] args) {
+		
+		Cats cat=new Cats();
+		
+		cat.name="hunter";
+		cat.color="gray,black and white";
+		cat.eyeColor="green black";
+		cat.pawColor="white and black";
+		cat.weight=8; // <-- PUT A NUMBER
+		cat.eat="Cat Food";
+		cat.breed="tabby";
+		
+		cat.eatingWeight();
+		cat.playful();
+		cat.hiding();
+		cat.running();
+		
+		
+	}
+
+}

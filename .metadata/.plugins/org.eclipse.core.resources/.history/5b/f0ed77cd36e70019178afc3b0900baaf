@@ -1,0 +1,36 @@
+package com.RandomNotes;
+
+public class LogiOp2 {
+	
+	public static void main(String[] args) {
+		
+		/*--Logical Operator Types
+		 * Or Operator ||
+		 * and Operator &&
+		 * not Operator !
+		 * Exclusive Operator ^
+		 * 
+		 * --> These operators are also known as the BOOLEAN OPERATORS
+		 */
+		
+		//not operator
+		boolean human=true;
+		
+		if(!human) { // NOT operator will print what is NOT human.
+			System.out.println("I am a human");
+		}else {
+			System.out.println("I am not a human");
+		}
+		
+		
+		boolean boy=false;
+		if(!boy) { // NOT operator will print what is NOT human.
+			System.out.println("I am a human");
+		}else {
+			System.out.println("I am not a human");
+		}
+		
+		
+	}
+
+}

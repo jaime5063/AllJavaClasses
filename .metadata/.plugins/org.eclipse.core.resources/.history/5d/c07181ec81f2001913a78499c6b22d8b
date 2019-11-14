@@ -1,0 +1,63 @@
+package com.class9;
+
+public class NestedLoopIntro {
+	
+	public static void main (String[] args) {
+		
+	// Nested Loops
+		
+	// our outer loop controls repetition of inner loop	
+		
+		for (int j=1; j<=3; j++) {
+			System.out.println("I am outer loop");
+			for(int i=1; i<=3; i++) {
+				System.out.println("I am inner loop");
+			}
+		}
+		/*
+		 *  I am outer loop --> 1 iteration outer loop
+			I am inner loop
+			I am inner loop
+			I am inner loop
+			I am outer loop --> 2 iteration outer loop
+			I am inner loop
+			I am inner loop
+			I am inner loop
+			I am outer loop --> 3 iteration outer loop
+			I am inner loop
+			I am inner loop
+			I am inner loop
+		 */
+//____________________________________________________________________________________________________________						
+
+		for (int j = 1; j >= 3; j++) {
+			System.out.println("I am outer loop");
+			for (int i = 1; i <= 3; i++) {
+				System.out.println("I am inner loop");
+			}
+		}
+		/*
+		 * 	Will not print because outer condition is false
+		 */
+//____________________________________________________________________________________________________________		
+
+		for (int j = 1; j <= 3; j++) {
+			System.out.println("I am outer loop 2nd example");
+			for (int i = 1; i >= 3; i++) {
+				System.out.println("I am inner loop 2nd example");
+			}
+		}
+		/*
+		 *  Only outer condition is true, second will NOT print 
+		 *  therefore it will be only iteration printing, it will bounce back and print 3 times
+		 */
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

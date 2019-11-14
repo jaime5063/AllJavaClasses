@@ -1,0 +1,90 @@
+package com.class9;
+
+public class NestedLoopPractice {
+	
+	public static void main(String[] args) {
+		
+		
+//		for (int i = 1; i <= 4; i++) {
+//
+//			for (int r = 1; r <= 5; r++) {
+//				System.out.println("****");
+//			}
+//			System.out.println();
+//		}
+
+//----------------------------------------------------				
+//		for(int r=0; r<5; r++) {
+//			
+//			for(int c=0; c<7; c++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		
+//------------------------------------------------
+		
+		// print 
+		/*
+		 * 12345
+		 * 12345
+		 * 12345
+		 * 12345
+		 *  5 ROWS
+		 *  4 COLUMS
+		 */
+		
+//		for (int a=1; a<5; a++){  // column
+//			
+//			for (int b=1; b<6; b++) { // row
+//				System.out.print(b);
+//			}
+//			System.out.println();
+//		}
+//------------------------------------------------------------------------------------------
+		
+ // Print 
+ /* 123456789
+	123456789
+	123456789
+	123456789
+	123456789
+  * 		
+  */
+//		for (int a = 1; a < 6; a++) {
+//
+//			for (int b = 1; b < 10; b++) {
+//				System.out.print(b);
+//			}
+//			System.out.println();
+//		}
+//------------------------------------------------------------
+		/*
+		 *  54321
+			54321
+			54321
+			54321
+			54321
+		 */
+		
+//		for (int a=1; a<=5; a++) {
+//			
+//			for(int b=5; b>=1; b--) {
+//				System.out.print(b);
+//			}
+//			System.out.println();
+//		}
+//-------------------------------------------------------------------------------------------
+		
+		for (int i=0; i<5; i++) {
+			
+			for(int b=1; b<=5; b++) {
+				System.out.print(b);
+			}
+			System.out.println();
+		}
+		
+		
+	}
+
+}

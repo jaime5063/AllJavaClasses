@@ -1,0 +1,20 @@
+package com.class17;
+
+public class ObjectsOfComputerClass {
+
+	public static void main(String[] args) {
+		
+		computer comp1=new computer();
+		
+		comp1.brand="Apple";
+		comp1.name="MacBook Pro";
+		comp1.keyboard=true;
+		comp1.screen=15;
+		comp1.memory=250;
+		
+	System.out.println("I have a "+comp1.brand+" "+comp1.name);
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.review7;
+
+public class mathOperations {
+	
+	int add(int number1, int number2, int number3) {
+		int sum = number1 + number2 + number3;
+//		System.out.println("The result of "+number1+" plus "+number2+" plus "+number3+" is = "+sum);
+		return sum;
+	}
+	
+	int subtract(int number1, int number2) {
+		int sub = number1 - number2;
+//		System.out.println("The result of "+number1+" minus "+number2+" is = "+sub);
+		return sub;
+	}
+	
+	void muliply(double num1, double num2) {
+		double times = num1 * num2;
+		System.out.println("The result of "+num1+" times "+num2+" is = "+times);
+	}
+	
+	void divide(double num1, double num2) {
+		if (num2 == 0) {
+			System.out.println("You cannot divide by "+num2);
+		}else {		
+		double div = num1 / num2;
+		System.out.println("The result of "+num1+" divided by "+num2+" is = "+div);
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package come.HwClassAndObject;
+
+public class HwObjClass {
+	
+	String name;
+	  int roll_no;
+
+	
+
+	public static void main(String[] args){
+	  
+		HwObjClass names=new HwObjClass();
+	  
+	  names.name="John";
+	  names.roll_no=2;
+	  
+	  System.out.println("Name is "+names.name+" and roll number is "+names.roll_no);
+	  
+	  
+	}
+
+}

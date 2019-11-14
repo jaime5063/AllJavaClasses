@@ -1,0 +1,80 @@
+package MyTestAndPlayPackage;
+
+public class GuessingGame {
+	
+	String name, nightOrDay, beansOrRice, JuiceOrSoda, iPadOriPhone, SaladOrVeggies, animal;
+	int num;	
+	void myName() {
+		System.out.println("My name is "+name);
+	}	
+	void favColor() {
+		System.out.println("I love "+nightOrDay);
+	}	
+	void favMovieCharacter() {
+		System.out.println("My favorite fruit is "+SaladOrVeggies);
+	}	
+	void favAnimal() {
+		System.out.println("My favorite color is "+animal);
+	}	
+	void favSport() {
+		System.out.println("My favorite food is "+beansOrRice);
+	}	
+	void favNum() {
+		System.out.println("my favorite number is "+num);
+	}	
+	public static void main(String[] args) {		
+		GuessingGame game=new GuessingGame();
+		game.name="Noah";
+		game.nightOrDay="";
+		game.beansOrRice="";
+		game.iPadOriPhone="";
+		game.JuiceOrSoda="";
+		game.SaladOrVeggies="";
+		
+		
+	
+		
+		
+		
+		game.myName();
+		System.out.println();
+	
+		if (game.nightOrDay.equalsIgnoreCase("")) {
+			System.out.println("Yes! I love the "+game.nightOrDay);
+		}else {
+			System.out.println("Nope sorry! =(");
+		}
+		System.out.println();
+		if (game.beansOrRice.equalsIgnoreCase("")) {
+			System.out.println("Yes! I love "+game.beansOrRice);
+		}else {
+			System.out.println("Not that food! =( ");
+		}
+		System.out.println();
+		if (game.iPadOriPhone.equalsIgnoreCase("")) {
+			System.out.println("Yes! I love the "+game.iPadOriPhone);
+		}else {
+			System.out.println("Nope not my favorite! =(");
+		}
+		System.out.println();
+		if (game.JuiceOrSoda.equalsIgnoreCase("")) {
+			System.out.println("Yes! "+game.JuiceOrSoda+" is my favorite drink!");
+		}else {
+			System.out.println("Not that drink! =(");
+		}
+		System.out.println();
+		if (game.SaladOrVeggies.equalsIgnoreCase("")) {
+			System.out.println("Yes! "+game.SaladOrVeggies+" is my favorite!");
+		}else {
+			System.out.println("Sorry not my favorite =( ");
+		}
+
+		System.out.println();
+		
+		
+
+		
+		
+	}
+
+}

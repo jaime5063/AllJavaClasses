@@ -1,0 +1,60 @@
+package com.class16;
+
+public class IntReviewQustn3 {
+
+	public static void main(String[] args) {
+		
+		// 1. find the length of alpha characters
+//		String str="Hello 68768892 &*^^ welcodmsjshcnaoII!!!!";		
+//		str = str.replace("[^a-zA-z]", ""); // remove all characters except a-zA-Z
+//		System.out.println(str.length());
+//-----------------------------------------------------------------------------------------			
+		
+		// 2. find out the part of the string from a string? what is a substring? find out
+		// the numbers of words in String ?
+//		String str="Today is very cold outside";
+//		String subStr = str.substring(0,5); // print from index 0-5
+//		System.out.println(subStr);
+		
+		// the numbers of words in String ?
+		// Step 1: split based on the space ---> array of String
+		// Step 2: find the length of an array
+//		String[] words=str.split(" ");
+//		System.out.println("The length of str = "+words.length);
+//-----------------------------------------------------------------------------------------		
+		
+		// 3. Write a java program to reverse String
+		// Reverse a String word by word?
+		String given="Welcome to Java class";
+			/* Step 1: split() ---> Array of strings
+			 * Step 2: Use for Loop ---> use decrement to print values	 
+			 */
+		String reverse=""; // this will allow us to create a string and we can change the string to anything and reverse it 
+		String[] givenA=given.split("\\s");
+		for(int i=givenA.length-1; i>=0; i--) {
+			reverse=reverse+givenA[i]+" "; // this allows us to create a string and make it dinamic
+		}
+		System.out.println(reverse);
+//-----------------------------------------------------------------------------------------			
+		
+		// Write java program to reverse String
+		// Step 1: toCharArray(); charAt();
+		String conclusion="";
+		String name="This is an array string";
+		char [] array=name.toCharArray();
+		for(int i=array.length-1; i>=0; i--) {
+			conclusion=conclusion+array[i];
+		}
+		System.out.println(conclusion);
+		
+		
+		
+		
+//-----------------------------------------------------------------------------------------			
+
+		
+		
+
+	}
+
+}

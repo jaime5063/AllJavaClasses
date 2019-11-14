@@ -1,0 +1,15 @@
+package com.class17;
+
+public class computer {
+	
+	// Computer Template
+	
+	// Features and Attributes
+	String display, monitor, mouse, name, brand;
+	int memory, ram,screen;
+	boolean keyboard;
+	
+	
+	
+
+}

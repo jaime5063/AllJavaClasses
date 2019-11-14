@@ -1,0 +1,18 @@
+package com.class17;
+
+public class ObjectsOfPhone {
+
+	public static void main(String[] args) {
+		
+		Phone smart=new Phone();
+		smart.make="Apple";
+		smart.name="iPhone";
+		smart.touchScreen=true;
+		smart.price=1000;
+		
+		smart.playGames();
+		
+
+	}
+
+}

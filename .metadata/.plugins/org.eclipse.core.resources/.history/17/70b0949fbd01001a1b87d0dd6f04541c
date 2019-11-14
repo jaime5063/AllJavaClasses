@@ -1,0 +1,23 @@
+package com.class15;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		
+		//String class comes in java lang package
+		// JDK = Java Development Kit
+		
+		// String is a sequence of characters
+		
+		String name="String Literal";
+		
+		String str1=new String("String Literal 2");
+		System.out.println(name);
+		System.out.println(str1);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.class17;
+
+public class CarExample {
+	
+	//define attributes/features/variables
+	String make,model,color;
+	int year,wheel,windows, speed;
+	
+
+}

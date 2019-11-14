@@ -1,0 +1,35 @@
+package com.class18;
+
+public class Task {
+	
+	public static void main(String[] args) {
+	
+	Task obj=new Task();
+	obj.largerNum(30, 10);
+	obj.largerNum(10, 55);
+	
+	obj.evenOdd(3);
+
+	}
+
+	void largerNum(int a, int b) {
+		
+		if(a>b) {
+			System.out.println(a+" is the larger number");
+		}else {
+			System.out.println(b+" is the larger number");
+		}	
+	}
+	
+	void evenOdd(int number) {
+		
+		if(number%2==0) {
+			System.out.println(number+" number is even");
+		}else {
+			System.out.println(number+" number is odd");
+		}
+	}
+	
+	
+	
+}

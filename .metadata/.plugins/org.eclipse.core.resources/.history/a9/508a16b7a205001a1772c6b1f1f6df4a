@@ -1,0 +1,11 @@
+package VoidReturnMethods;
+
+public class Hamburger {
+	
+	// Declare our object
+	
+	Food servingA = new Food ("Hamburger");
+	
+	
+
+}

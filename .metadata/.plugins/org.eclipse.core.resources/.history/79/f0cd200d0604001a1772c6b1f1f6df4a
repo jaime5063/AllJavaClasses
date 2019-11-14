@@ -1,0 +1,79 @@
+package MyTestAndPlayPackage;
+
+public class GuessingGame {
+	
+	String name, color, sport, team, carColor, movieCharacter, animal;
+	int num;	
+	void myName() {
+		System.out.println("My name is "+name);
+	}	
+	void favColor() {
+		System.out.println("My favorite color is "+color);
+	}	
+	void favMovieCharacter() {
+		System.out.println("My favorite color is "+movieCharacter);
+	}	
+	void favAnimal() {
+		System.out.println("My favorite color is "+animal);
+	}	
+	void favSport() {
+		System.out.println("My favorite color is "+sport);
+	}	
+	void favNum() {
+		System.out.println("my favorite number is "+num);
+	}	
+	public static void main(String[] args) {		
+		GuessingGame game=new GuessingGame();
+		game.name="Nathan";
+		game.color="";
+		game.sport="";
+		game.movieCharacter="";
+		game.animal="";
+		game.num=;
+		
+	
+		
+		
+		
+		game.myName();
+		System.out.println();
+	
+		if (game.color.equalsIgnoreCase("red")) {
+			System.out.println("Yes! "+game.color+" is my favorite color!");
+		}else {
+			System.out.println("Not that color!");
+		}
+		System.out.println();
+		if (game.sport.equalsIgnoreCase("Basketball")) {
+			System.out.println("Yes! "+game.sport+" is my favorite sport!");
+		}else {
+			System.out.println("Not that sport!");
+		}
+		System.out.println();
+		if (game.movieCharacter.equalsIgnoreCase("Golden Panther")) {
+			System.out.println("Yes! "+game.movieCharacter+" is my favorite movie character!");
+		}else {
+			System.out.println("Not that character!");
+		}
+		System.out.println();
+		if (game.animal.equalsIgnoreCase("lion")) {
+			System.out.println("Yes! "+game.animal+" is my favorite animal!");
+		}else {
+			System.out.println("Not that animal!");
+		}
+		System.out.println();
+		if (game.num == 6) {
+			System.out.println("Yes! "+game.num+" is my favorite number!");
+		}else {
+			System.out.println("Sorry not that number =( ");
+		}
+
+		System.out.println();
+		
+		
+
+		
+		
+	}
+
+}

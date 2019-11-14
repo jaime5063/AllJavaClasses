@@ -1,0 +1,15 @@
+package VoidReturnMethods;
+
+public class HamburgerJoint {
+	
+	public static void main(String[] args) {
+	
+	// Declare our object	
+	Food servingA = new Food ("Hamburger");
+	
+	// invoke both methods from FOOD Class
+	System.out.println(servingA.getFood());
+	
+	
+	}
+}

@@ -1,0 +1,55 @@
+package come.HwClassAndObject;
+
+public class HwObjClass {
+	
+//	String name;
+//	int roll_no;
+//
+//	public static void main(String[] args) {
+//
+//		HwObjClass names = new HwObjClass();
+//		names.name = "John";
+//		names.roll_no = 2;
+//		System.out.println("Name is " + names.name + " and roll number is " + names.roll_no);
+//
+//	}
+//------------------------------------------------
+/*create a class named 'Main' with specific attributes.
+
+For you to do:
+
+Create two objects in which you will be assigning the following values.
+carColor='Black'
+carModelYear=2019
+carName='BMW'
+
+carColor='White'
+carModelYear=2018
+carName='Toyota'
+
+Car color is Black and car model year is 2019 and car name is BMW
+Car color is White and car model year is 2018 and car name is Toyota
+*/
+	
+	String carColor, carName;
+	int carModelYear;
+	
+	void car() {
+		System.out.println("Car color is "+carColor+" and model year is "+carModelYear+" and name is "+carName);
+	}
+
+	public static void main(String [] args) {
+		
+		HwObjClass car=new HwObjClass();	
+		car.carColor="Black";
+		car.carModelYear=2019;
+		car.carName="BMW";
+		car.car();
+		
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,67 @@
+package MyTestAndPlayPackage;
+
+public class GuessingGame {
+	
+	String name, color, sport, team, carColor, movieCharacter, animal;
+	int num;	
+	void myName() {
+		System.out.println("My name is "+name);
+	}	
+	void favColor() {
+		System.out.println("My favorite color is "+color);
+	}	
+	void favMovieCharacter() {
+		System.out.println("My favorite color is "+movieCharacter);
+	}	
+	void favAnimal() {
+		System.out.println("My favorite color is "+animal);
+	}	
+	void favSport() {
+		System.out.println("My favorite color is "+sport);
+	}	
+	void favNum() {
+		System.out.println("my favorite number is "+num);
+	}	
+	public static void main(String[] args) {		
+		GuessingGame game=new GuessingGame();
+		game.color="";
+		game.sport="test";
+		game.movieCharacter="";
+		game.animal="";
+		game.num=1;
+		
+		if (game.color.equalsIgnoreCase("test")) {
+			System.out.println("Great job!");
+		} else {
+			System.out.println("Sorry try again =( ");
+		}
+		
+		if (game.sport.equalsIgnoreCase("test")) {
+			System.out.println("Great job!");
+		} else {
+			System.out.println("Sorry try again =( ");
+		}
+		
+		if (game.movieCharacter.equalsIgnoreCase("test")) {
+			System.out.println("Great job!");
+		} else {
+			System.out.println("Sorry try again =( ");
+		}
+		
+		if (game.animal.equalsIgnoreCase("test")) {
+			System.out.println("Great job!");
+		} else {
+			System.out.println("Sorry try again =( ");
+		}
+		
+		if (game.num == 0) {
+			System.out.println("Great job!");
+		} else {
+			System.out.println("Sorry try again =( ");
+		}
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package com.class15;
+
+public class StringMoreExamples {
+
+	public static void main(String[] args) {
+		
+		// get specific character at specific postion
+		
+		// charAt
+		String str="Syntax Technologies";
+		
+		char ch=str.charAt('5');
+		System.out.println(ch);
+		
+		
+		
+
+	}
+
+}

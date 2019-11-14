@@ -1,0 +1,29 @@
+package com.class15;
+
+import java.util.Arrays;
+
+public class IntervwQuest2 {
+
+	public static void main(String[] args) {
+
+
+		// Write program to find second largest num in the array
+		int [] array = {100, -90, 8787, 898, 0, 1};
+		// easiest way
+		Arrays.sort(array); // sort method.  Order, lowest to largets
+		int min=array[0];
+		int max=array[array.length-1];
+		
+		System.out.println(min);
+		System.out.println(max);
+		
+		
+		
+		
+		
+		// Max
+		
+
+	}
+
+}

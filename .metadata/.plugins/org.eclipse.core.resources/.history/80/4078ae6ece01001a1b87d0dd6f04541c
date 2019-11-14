@@ -1,0 +1,29 @@
+package com.class15;
+
+public class IntQuestion1 {
+
+	public static void main(String[] args) {
+
+/*
+ *  Write a program to swap 2num without a temp variable
+ *  Swap 2 string without a temp variable
+ */
+		int a=10;
+		int b=20;
+		
+		a=a+b; //30
+		b=a-b; //30-20 = 10
+		a=a-b; //30-10 = 20
+		System.out.println("The value of a="+a);
+		System.out.println("The value of b="+b);
+		
+
+		String n="hi";
+		String c="hello";
+		n.equals(c);
+		c.equals(n);
+	System.out.println(n);
+		
+	}
+
+}

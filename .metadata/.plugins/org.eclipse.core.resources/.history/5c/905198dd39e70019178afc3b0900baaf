@@ -1,0 +1,51 @@
+package com.RandomNotes;
+
+public class LogiOp2 {
+	
+	public static void main(String[] args) {
+		
+		/*--Logical Operator Types
+		 * Or Operator ||
+		 * and Operator &&
+		 * not Operator !
+		 * Exclusive Operator ^
+		 * 
+		 * --> These operators are also known as the BOOLEAN OPERATORS
+		 */
+		
+		// Example 1 of NOT operator-->   !
+		boolean human=true;
+		
+		if(!human) { // NOT operator will print "I am not human" because it is NOT true (human=true)
+			System.out.println("I am a human");
+		}else {
+			System.out.println("I am not a human");
+		}
+		// Example 2 of NOT operator-->   !
+		boolean boy=false;
+		if(!boy) { // NOT operator will print "I am a boy" because it is NOT false (boy=false)
+			System.out.println("I am a boy");
+		}else {
+			System.out.println("I am not a boy");
+		}
+//		
+//		
+		// Example 1 of AND operator-->  &&
+		// if true && true = true
+		// if true && false = false
+		// Both conditions have to be correct
+		
+		int andNumber=6;
+		
+		if((andNumber % 2 == 0) && (andNumber % 3 == 0)) {
+			System.out.println(andNumber + " is divisible by both 2 and 3");
+		}else {
+			System.out.println(andNumber + " is not divisible by both 2 and 3");
+		}
+		
+		
+		
+		
+	}
+
+}

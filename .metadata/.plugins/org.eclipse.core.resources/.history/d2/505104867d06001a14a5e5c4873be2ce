@@ -1,0 +1,45 @@
+package com.review7;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		Student student1 = new Student();
+		
+		student1.studentNum=222;
+		student1.studentName="Tom Green";
+		student1.gradeLevel="2nd Grade";
+		
+		Student student2 = new Student();
+		student2.studentNum=312;
+		student2.studentName="Marry Adams";
+		student2.gradeLevel="3rd Grade";
+		
+		Student student3 = new Student();
+		student3.studentNum=401;
+		student3.studentName="Bran Stark";
+		student3.gradeLevel="3rd Grade";
+		
+		Teacher teacher1 = new Teacher();
+		teacher1.teacherName="Mrs.Clark";
+		teacher1.salary=50000;
+		teacher1.subject="Math";
+		
+		Teacher teacher2 = new Teacher();
+		teacher2.teacherName="Paul Smith";
+		teacher2.salary=35000;
+		teacher2.subject="Art";
+		
+		student1.displayName();						// --> print name calling method
+		System.out.println(student1.studentName);	// --> print name as well through sysout
+		
+		teacher1.teach();
+		student1.study();
+		
+		
+		
+
+		}
+}
+
+

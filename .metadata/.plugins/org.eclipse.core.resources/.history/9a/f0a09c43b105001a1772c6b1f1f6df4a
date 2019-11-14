@@ -1,0 +1,16 @@
+package com.class18;
+
+public class Hello {
+	
+	void sayHello(){
+		System.out.println("Hello Asel");
+	}
+
+	
+	public static void main(String[] args) {
+		
+		Hello obj=new Hello();
+		obj.sayHello();
+	}
+	
+}

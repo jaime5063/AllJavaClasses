@@ -1,0 +1,44 @@
+package introduction;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// Variables in Java
+		
+		/*
+		 * Byte 
+		 * Min: -128
+		 * Max: 127
+		 * Default: 0
+		 */
+		//byte is usually used when I am really concerned about the memory
+		//first we give byteVariable the value of 100
+		//Then we print the subject with syso "Byte Value: "
+		//Lastly with use the + to connect our byte value as the answer and print
+		byte byteVariable = 100;
+		System.out.println("Byte Value: " + byteVariable);
+		
+		/*
+		 * Short
+		 * Min: -32,768
+		 * Max: 32,767
+		 * Default: 0
+		 */
+		
+		/*
+		 * int:
+		 * Min: -2,147,483,684
+		 * Max: 2,147,483,684
+		 * Default: 0 
+		 */
+		
+		/*
+		 * Long
+		 * Min: -2^63
+		 * Max: 2^63 -1
+		 * Default: 0
+		 */
+
+	}
+
+}
